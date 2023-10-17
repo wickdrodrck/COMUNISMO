@@ -1,0 +1,5 @@
+<div class="maxi" *ngFor="let peli of lPeliculas; let i = index">
+    <img src="assets/{{peli.caratula}}">
+    <p><a routerLink="/Peliculas/{{i}}">Titulo : {{peli.titulo}}</a> - Puntuacion : {{peli.puntuacion}}<p>
+</div>
+<p> Prueba </p>
