@@ -1,0 +1,44 @@
+.sbody {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navegacion {
+  width: 25%;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.navegacion ul {
+  width: 100%;
+}
+
+.navegacion li {
+  background-color: black;
+  padding: 5%;
+  margin: 0;
+  text-align: left;
+  list-style-type: none;
+  color: white;
+  width: 100%;
+}
+
+.imagen
+
+.sbody img {
+  margin-left: 10%;
+  border-top-right-radius: 60px;
+  width: 400px;
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.sociales {
+  background-color: black;
+  color: aliceblue;
+  padding: 2%;
+  position: relative;
+  z-index: 2;
+}
